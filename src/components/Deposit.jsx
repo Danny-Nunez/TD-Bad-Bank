@@ -84,7 +84,7 @@ const Deposit = () => {
 
   const customStyles = {
     width: "fit-content",
-    zIndex: "-1",
+   
     marginTop: '150px',
     marginLeft: 'auto',
     marginRight: 'auto',
