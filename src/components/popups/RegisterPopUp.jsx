@@ -240,7 +240,6 @@ const RegisterPopUp = ({ handleClose }) => {
                     <Button
                       color="error"
                       variant="contained"
-                      
                       type="submit"
                       onClick={handleClosePopUp}
                     >
@@ -257,11 +256,13 @@ const RegisterPopUp = ({ handleClose }) => {
                       Register
                     </Button>
                   </Box>
+                  <p></p>
                 </div>
               </div>
             </div>
           )}
         </div>
+        
       </div>
     </>
   );

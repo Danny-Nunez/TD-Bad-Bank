@@ -373,7 +373,9 @@ h3 {
   .box {
     width: 90%;
   }
-  
+  .popup-box p {
+    margin-bottom: 50px;
+  }
   .custom-input-box {
     width: 100%;
   }
