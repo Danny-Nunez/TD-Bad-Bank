@@ -45,16 +45,14 @@ const UserAccount = () => {
           Edit Profile Info
         </Button>
       </div>
-      <div className="report-container">
-        <div>
+      <div className="transactionWrapper2">
+          <Chart chartData={transactionData} />
+        </div>
+      <div className="transactionWrapper2">
           <h5>Transactions</h5>
           <Transactions />
         </div>
-
-        <div className="chart-container">
-          <Chart chartData={transactionData} />
-        </div>
-      </div>
+      
       </div>
       {isUpdatePopUpOpen && <UpdateProfilePopUp handleClose={toggleUpdate} />}
     </>
