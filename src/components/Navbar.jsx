@@ -125,7 +125,7 @@ const Navbar = () => {
                       onClick={toggleRegisterPopUp}
                       className="nav-link clickable"
                     >
-                      Create Account
+                      <span className="createMenu">Create Account</span>
                     </span>
                   </li>
                   <li className="nav-item">

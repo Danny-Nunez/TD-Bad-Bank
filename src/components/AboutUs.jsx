@@ -1,6 +1,6 @@
 import React from 'react'
-import useUserContext from "../hooks/useUserContext";
-import { Button, Box } from "@mui/material";
+
+import { Box } from "@mui/material";
 
 function AboutUs() {
   return (

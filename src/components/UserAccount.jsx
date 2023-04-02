@@ -22,7 +22,7 @@ const UserAccount = () => {
       {
         label: "Total",
         data: [totalDeposits, totalWithdraws],
-        backgroundColor: ["rgba(75, 192, 192, 0.5)", "rgba(255, 99, 132, 0.5)"],
+        backgroundColor: ["rgba(0, 166, 8, 0.583)", "rgba(255, 0, 0, 0.5)"],
         borderColor: ["rgb(75, 192, 192)", "rgb(255, 99, 132)"],
         borderWith: 2,
       },

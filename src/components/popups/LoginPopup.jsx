@@ -72,7 +72,7 @@ const LoginPopUp = ({ handleClose }) => {
         <div className="box">
           <div className="card">
             <div className="card-body">
-              <span className="">Login</span>
+              <span className="">Welcome to Online Banking</span>
               <hr />
               <div>
                 <Box m={2}>

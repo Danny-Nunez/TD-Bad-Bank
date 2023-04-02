@@ -34,7 +34,7 @@ const Transactions = () => {
         <p>Please login to your account</p>
       ) : (
         <TableContainer component={Paper} className="custom-table">
-          <Table sx={{ minWidth: 500 }} aria-label="simple table">
+          <Table sx={{ minWidth: 300 }} aria-label="simple table">
             <TableHead>
               <TableRow>
                 <TableCell>Date</TableCell>
