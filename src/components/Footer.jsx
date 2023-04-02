@@ -16,7 +16,7 @@ function Footer() {
             <SocialIcon url="https://github.com/Danny-Nunez" bgColor="#fff" fgColor="#015215" className="socialIcon" style={{ height: 42, width: 42 }}/>
             </p>
         </div>
-        <span className="copyright">2023 Copyright MIT Bad Bank Capstone</span>
+        <span className="copyright">2023 © Copyright MIT Bad Bank Capstone</span>
     </div>
   )
 }
