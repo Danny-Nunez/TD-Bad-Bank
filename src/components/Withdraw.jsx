@@ -7,6 +7,7 @@ import RegisterPopUp from "./popups/RegisterPopUp";
 
 import createTransaction from "../helpers/createTransaction";
 
+
 import { Button, TextField, Box } from "@mui/material";
 const Withdraw = () => {
   const [isDisabled, setIsDisabled] = useState(true);
@@ -151,6 +152,7 @@ const Withdraw = () => {
                 </Button>
               </Box>
             </div>
+          
           </div>
         </div>
       )}

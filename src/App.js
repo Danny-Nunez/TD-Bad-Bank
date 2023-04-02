@@ -2,8 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./components/Home";
 import AboutUs from "./components/AboutUs";
-import Deposit from "./components/Deposit";
-import Withdraw from "./components/Withdraw";
+import Deposit from "./components/DepositWithTransactions";
+import Withdraw from "./components/WithdrawWithTransactions";
 import UserAccount from "./components/UserAccount";
 import AllData from "./components/AllData";
 import { ToastContainer } from "react-toastify";
@@ -19,8 +19,8 @@ function App() {
             <Route index element={<Home />} />
             <Route path="home" element={<Home />} />
             <Route path="aboutUs" element={<AboutUs />} />
-            <Route path="deposit" element={<Deposit />} />
-            <Route path="withdraw" element={<Withdraw />} />
+            <Route path="depositWith" element={<Deposit />} />
+            <Route path="withdrawWith" element={<Withdraw />} />
             <Route path="myAccount" element={<UserAccount />} />
             <Route path="allData" element={<AllData />} />
           </Route>

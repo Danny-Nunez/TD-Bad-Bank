@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 const Home = () => {
 
@@ -12,10 +13,14 @@ const Home = () => {
               Welcome to our unsecure online banking service, where protecting your personal information is our least priority. We are not committed to ensuring the confidentiality and privacy of your data throughout your banking experience with us.
             </p>
             <div className="card-container2">
-        <button onClick={event =>  window.location.href='/aboutUs'} className="btn btn-success">
-          Learn About TD Bad Bank
+        <button  className="btn btn-success">
+        <Link to="/aboutUs" className="nav-link">
+        Learn About TD Bad Bank
+                </Link>
         </button>
+        <p className="footerTitle">Need to talk to us directly?<span className="footerContact"> Contact us</span> </p>
       </div>
+      
   </div>
 </div>
       

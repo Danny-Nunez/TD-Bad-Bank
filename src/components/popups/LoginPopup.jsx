@@ -63,7 +63,7 @@ const LoginPopUp = ({ handleClose }) => {
   }, [formik.values]);
 
   const cancelButtonStyles = {
-    backgroundColor: "#495057",
+    backgroundColor: "#b50220",
   };
 
   return (
@@ -117,6 +117,7 @@ const LoginPopUp = ({ handleClose }) => {
                   </Button>
 
                   <Button
+                    className="loginButton"
                     variant="contained"
                     type="submit"
                     onClick={formik.handleSubmit}

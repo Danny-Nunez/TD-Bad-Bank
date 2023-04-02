@@ -4,9 +4,9 @@ import { SocialIcon } from 'react-social-icons';
 function Footer() {
   return (
     <div className="footer">
-        <p className="footerTitle">Need to talk to us directly?<span className="footerContact"> Contact us</span> </p>
+        
 
-    <span className="footerSocial">Follow TD Bank</span>
+    <span className="footerSocial">Follow TD Bad Bank</span>
     <div>
         <p className="socialButton">
             <SocialIcon url="https://twitter.com/DannyFullstack" bgColor="#fff" fgColor="#015215" className="socialIcon" style={{ height: 42, width: 42 }}/>
@@ -16,6 +16,7 @@ function Footer() {
             <SocialIcon url="https://github.com/Danny-Nunez" bgColor="#fff" fgColor="#015215" className="socialIcon" style={{ height: 42, width: 42 }}/>
             </p>
         </div>
+        <span className="copyright">2023 Copyright MIT Bad Bank Capstone</span>
     </div>
   )
 }

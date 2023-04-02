@@ -9,30 +9,61 @@ const Navbar = () => {
   const [isRegisterPopUp, setIsRegisterPopUp] = useState(false);
   const [isLoginPopUp, setIsLoginPopUp] = useState(false);
   const { loggedInUser, setLoggedInUser } = useUserContext();
+  
   const navigate = useNavigate();
-
+ 
   const toggleRegisterPopUp = () => {
     setIsRegisterPopUp(!isRegisterPopUp);
+    const navbarToggler = document.querySelector('.navbar-toggler');
+  if (navbarToggler && navbarToggler.getAttribute('aria-expanded') === 'true') {
+    navbarToggler.click();
+  }
   };
 
   const toggleLoginPopUp = () => {
     setIsLoginPopUp(!isLoginPopUp);
+    const navbarToggler = document.querySelector('.navbar-toggler');
+  if (navbarToggler && navbarToggler.getAttribute('aria-expanded') === 'true') {
+    navbarToggler.click();
+  }
   };
 
   const handleLogout = () => {
     setLoggedInUser("");
     navigate("/");
+    // Close the navbar menu
+  const navbarToggler = document.querySelector('.navbar-toggler');
+  if (navbarToggler && navbarToggler.getAttribute('aria-expanded') === 'true') {
+    navbarToggler.click();
+  }
   };
+  
+  const handleClick = () => {
+    // Close the navbar menu
+  const navbarToggler = document.querySelector('.navbar-toggler');
+  if (navbarToggler && navbarToggler.getAttribute('aria-expanded') === 'true') {
+    navbarToggler.click();
+  }
+  };
+
 
   return (
   <>
   <div className="navWrapper">
   <div className="topMenu" >
   <ul className="greenMenu">
-  <li className="nav-item2"><a href="/aboutUs">Business</a></li>
-  <li className="nav-item2"><a href="/aboutUs">Commercial</a></li>
-  <li className="nav-item2"><a href="/aboutUs">Investing</a></li>
-  <li className="nav-item2"><a href="/aboutUs">About Us</a></li>
+  <li className="nav-item2"><Link to="/aboutUs" className="nav-link">
+                  Business
+                </Link></li>
+  <li className="nav-item2"><Link to="/aboutUs" className="nav-link">
+                  Commercial
+                </Link></li>
+  <li className="nav-item2"><Link to="/aboutUs" className="nav-link">
+                  Investing
+                </Link></li>
+  <li className="nav-item2"><Link to="/aboutUs" className="nav-link">
+                  AboutUs
+                </Link></li>
 </ul>
     </div>
       <nav className="navbar navbar-expand-lg">
@@ -55,29 +86,29 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
             <li className="nav-item">
-                <Link to="/aboutUs" className="nav-link">
+                <Link onClick={handleClick} to="/aboutUs" className="nav-link">
                   AboutUs
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/deposit" className="nav-link">
+                <Link onClick={handleClick} to="/depositWith" className="nav-link">
                   Deposit
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/withdraw" className="nav-link">
+                <Link onClick={handleClick} to="/withdrawWith" className="nav-link">
                   Withdraw
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/allData" className="nav-link">
+                <Link onClick={handleClick} to="/allData" className="nav-link">
                   All Data
                 </Link>
               </li>
               {loggedInUser ? (
                 <>
                   <li className="nav-item">
-                    <Link to="/myAccount" className="nav-link">
+                    <Link onClick={handleClick} to="/myAccount" className="nav-link">
                       My Account
                     </Link>
                   </li>
