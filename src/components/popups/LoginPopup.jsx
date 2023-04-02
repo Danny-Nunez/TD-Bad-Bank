@@ -108,8 +108,9 @@ const LoginPopUp = ({ handleClose }) => {
 
                 <Box m={2} className="custom-btn-group">
                   <Button
+                    color="error"
                     variant="contained"
-                    style={cancelButtonStyles}
+                    
                     type="submit"
                     onClick={handleClose}
                   >
@@ -117,6 +118,7 @@ const LoginPopUp = ({ handleClose }) => {
                   </Button>
 
                   <Button
+                  color="success"
                     className="loginButton"
                     variant="contained"
                     type="submit"

@@ -144,6 +144,7 @@ const Withdraw = () => {
               </Box>
               <Box m={2}>
                 <Button
+                  color="error"
                   variant="contained"
                   onClick={formik.handleSubmit}
                   disabled={isDisabled}

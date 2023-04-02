@@ -113,6 +113,7 @@ const RegisterPopUp = ({ handleClose }) => {
                 <p>Would you like to add another account?</p>
                 <Box m={2} className="custom-btn-group">
                   <Button
+                    color="error"
                     variant="contained"
                     style={cancelButtonStyles}
                     type="submit"
@@ -122,6 +123,7 @@ const RegisterPopUp = ({ handleClose }) => {
                   </Button>
 
                   <Button
+                    color="success"
                     variant="contained"
                     type="submit"
                     onClick={handleClickYes}
@@ -236,8 +238,9 @@ const RegisterPopUp = ({ handleClose }) => {
 
                   <Box m={2} className="custom-btn-group">
                     <Button
+                      color="error"
                       variant="contained"
-                      style={cancelButtonStyles}
+                      
                       type="submit"
                       onClick={handleClosePopUp}
                     >
@@ -245,6 +248,7 @@ const RegisterPopUp = ({ handleClose }) => {
                     </Button>
 
                     <Button
+                      color="success"
                       variant="contained"
                       type="submit"
                       onClick={formik.handleSubmit}

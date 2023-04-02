@@ -138,6 +138,7 @@ const Deposit = () => {
               </Box>
               <Box m={2}>
                 <Button
+                  color="success"
                   variant="contained"
                   onClick={formik.handleSubmit}
                   disabled={isDisabled}

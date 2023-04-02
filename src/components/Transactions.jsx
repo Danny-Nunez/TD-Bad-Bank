@@ -22,7 +22,13 @@ const Transactions = () => {
             {transaction.date}
           </TableCell>
           <TableCell align="right">{transaction.type}</TableCell>
-          <TableCell align="right">{transaction.amount}</TableCell>
+          <TableCell style={
+                    transaction.type === "Withdraw"
+                      ? { color: "red" }
+                      : { color: "green" }
+                  } align="right">{transaction.type === "Withdraw"
+                  ? "-$" + transaction.amount.toFixed(2)
+                  : "+$" + transaction.amount.toFixed(2)}</TableCell>
         </TableRow>
       );
     }
