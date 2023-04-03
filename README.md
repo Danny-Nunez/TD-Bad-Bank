@@ -1,5 +1,7 @@
 # TD Bad Bank MIT Capstone Project
 
+<img width="1110" alt="Screen Shot 2023-04-02 at 10 12 23 PM" src="https://user-images.githubusercontent.com/114783191/229396239-4206ed32-3564-4e4b-a61a-6261dc7f76d4.png">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
