@@ -2,11 +2,9 @@
 
 <img width="1110" alt="Screen Shot 2023-04-02 at 10 12 23 PM" src="https://user-images.githubusercontent.com/114783191/229396239-4206ed32-3564-4e4b-a61a-6261dc7f76d4.png">
 <img width="1113" alt="Screen Shot 2023-04-02 at 10 19 29 PM" src="https://user-images.githubusercontent.com/114783191/229396933-6cd0c26b-a750-4ccd-93ca-a1ed2b91b991.png">
-<img width="1111" alt="Screen Shot 2023-04-02 at 10 20 42 PM" src="https://user-images.githubusercontent.com/114783191/229397115-dec05493-ce77-433b-a3ec-0a44345970d3.png">
-<img width="1110" alt="Screen Shot 2023-04-02 at 10 20 21 PM" src="https://user-images.githubusercontent.com/114783191/22
 
-<img width="1110" alt="Screen Shot 2023-04-02 at 10 21 13 PM" src="https://user-images.githubusercontent.com/114783191/229397136-6f02aa0a-06bd-462d-836c-65fb5d633564.png">
-9397128-d5e6541c-49e7-4749-87f2-a78a0b342df2.png">
+<img width="1110" alt="Screen Shot 2023-04-02 at 10 21 13 PM" src="https://user-images.githubusercontent.com/114783191/229397283-06f2b28a-8cce-47f4-9884-d698cba4deba.png">
+
 
 # Getting Started with Create React App
 
