@@ -14,6 +14,9 @@ This project comprises a straightforward React application where students apply 
 <img width="1120" alt="Screen Shot 2023-04-02 at 10 32 23 PM" src="https://user-images.githubusercontent.com/114783191/229398485-4f533a7d-b7c4-4b80-ba06-8460d6458c64.png">
 
 
+# Future Modifications
+
+One of the next milestones would be to add a database and make this app more secure.
 
 # Getting Started with Create React App
 
