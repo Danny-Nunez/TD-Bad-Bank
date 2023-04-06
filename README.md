@@ -28,7 +28,7 @@ In addition, I leveraged Formik to streamline the form message handler and state
 
 # Future Modifications
 
-One of the next milestones would be to add a database and make this app more secure.
+An upcoming objective is to incorporate a database into the application and enhance its security measures.
 
 # Getting Started with Create React App
 
