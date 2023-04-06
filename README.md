@@ -7,9 +7,6 @@ This project comprises a straightforward React application where students apply 
 <img width="1110" alt="Screen Shot 2023-04-02 at 10 12 23 PM" src="https://user-images.githubusercontent.com/114783191/229396239-4206ed32-3564-4e4b-a61a-6261dc7f76d4.png">
 <img width="1113" alt="Screen Shot 2023-04-02 at 10 19 29 PM" src="https://user-images.githubusercontent.com/114783191/229396933-6cd0c26b-a750-4ccd-93ca-a1ed2b91b991.png">
 
-<img width="1110" alt="Screen Shot 2023-04-02 at 10 21 13 PM" src="https://user-images.githubusercontent.com/114783191/229397283-06f2b28a-8cce-47f4-9884-d698cba4deba.png">
-<img width="1117" alt="Screen Shot 2023-04-02 at 10 31 58 PM" src="https://user-images.githubusercontent.com/114783191/229398474-c88b4b1d-b284-4c0e-9de9-7a2cda01f6bc.png">
-
 <img width="1112" alt="Screen Shot 2023-04-02 at 10 32 39 PM" src="https://user-images.githubusercontent.com/114783191/229398480-9a1efd34-69d4-4743-ae24-53c06a7fc671.png">
 <img width="1120" alt="Screen Shot 2023-04-02 at 10 32 23 PM" src="https://user-images.githubusercontent.com/114783191/229398485-4f533a7d-b7c4-4b80-ba06-8460d6458c64.png">
 
