@@ -5,8 +5,12 @@ The TD Bad Bank project serves as the Capstone Github Portfolio Project within t
 This project comprises a straightforward React application where students apply various concepts including hooks, context, routing, and form validations. Additionally, this project serves as an opportunity for students to deploy a React application using AWS S3 Buckets for the first time.
 
 <img width="1110" alt="Screen Shot 2023-04-02 at 10 12 23 PM" src="https://user-images.githubusercontent.com/114783191/229396239-4206ed32-3564-4e4b-a61a-6261dc7f76d4.png">
-<img width="1148" alt="Screen Shot 2023-04-06 at 10 29 13 AM" src="https://user-images.githubusercontent.com/114783191/230412602-d7ec2b59-a3ec-45e2-8a8f-500c4095c2ef.png">
 
+# TD Bad Bank Preview
+
+<img width="1148" alt="Screen Shot 2023-04-06 at 10 29 13 AM" src="https://user-images.githubusercontent.com/114783191/230412602-d7ec2b59-a3ec-45e2-8a8f-500c4095c2ef.png">
+<img width="1148" alt="Screen Shot 2023-04-06 at 10 28 33 AM" src="https://user-images.githubusercontent.com/114783191/230413024-211b0904-4299-4671-bd37-dea0e2a97882.png">
+<img width="1125" alt="Screen Shot 2023-04-06 at 10 27 49 AM" src="https://user-images.githubusercontent.com/114783191/230413051-b51ba8e5-c7a3-4309-9cef-ea849c40c953.png">
 <img width="1112" alt="Screen Shot 2023-04-02 at 10 32 39 PM" src="https://user-images.githubusercontent.com/114783191/229398480-9a1efd34-69d4-4743-ae24-53c06a7fc671.png">
 <img width="1120" alt="Screen Shot 2023-04-02 at 10 32 23 PM" src="https://user-images.githubusercontent.com/114783191/229398485-4f533a7d-b7c4-4b80-ba06-8460d6458c64.png">
 
