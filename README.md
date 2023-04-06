@@ -1,4 +1,4 @@
-# TD Bad Bank project serves as the Capstone Github Portfolio Project
+# TD Bad Bank
 
 The TD Bad Bank project serves as the Capstone Github Portfolio Project within the MIT - Fullstack Development with MERN. This project is aptly named as such due to the intentional exposure of user data within the user interface.
 
