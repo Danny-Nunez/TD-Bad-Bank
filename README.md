@@ -1,6 +1,6 @@
-# TD Bad Bank MIT Capstone Project
+# TD Bad Bank project serves as the Capstone Github Portfolio Project
 
-The TD Bad Bank project serves as the Capstone Project for Module 2 within the MIT - Fullstack Development with MERN. This project is aptly named as such due to the intentional exposure of user data within the user interface.
+The TD Bad Bank project serves as the Capstone Github Portfolio Project within the MIT - Fullstack Development with MERN. This project is aptly named as such due to the intentional exposure of user data within the user interface.
 
 This project comprises a straightforward React application where students apply various concepts including hooks, context, routing, and form validations. Additionally, this project serves as an opportunity for students to deploy a React application using AWS S3 Buckets for the first time.
 
