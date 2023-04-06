@@ -14,6 +14,17 @@ This project comprises a straightforward React application where students apply 
 <img width="1112" alt="Screen Shot 2023-04-02 at 10 32 39 PM" src="https://user-images.githubusercontent.com/114783191/229398480-9a1efd34-69d4-4743-ae24-53c06a7fc671.png">
 <img width="1120" alt="Screen Shot 2023-04-02 at 10 32 23 PM" src="https://user-images.githubusercontent.com/114783191/229398485-4f533a7d-b7c4-4b80-ba06-8460d6458c64.png">
 
+# Mobile Responsive View
+
+![mobileview](https://user-images.githubusercontent.com/114783191/230413979-68b6f792-d268-462c-9652-333838e78eb6.jpg)
+
+# Recap
+
+One of the most significant obstacles I faced involved deploying to AWS S3. For some unknown reason, the browser router displayed a blank page, and HashRouter was the ultimate solution to this problem.
+
+Regarding my design approach, I aimed to test my capability to create an app with the appearance of an official banking website. A crucial element was its responsiveness. I introduced numerous modifications to the initial code, from design to multiple components, that breathed life into this project.
+
+In addition, I leveraged Formik to streamline the form message handler and state manipulation. The Toastify module enabled smooth notification delivery.
 
 # Future Modifications
 
