@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { Box } from "@mui/material";
 
 function AboutUs() {
@@ -15,7 +14,7 @@ function AboutUs() {
                   <div>
                    
                     <p>
-                    The TD Bad Bank project serves as the Capstone Project for Module 2 within the{" "}
+                    The TD Bad Bank project serves as the Capstone Github Portfolio Project within the{" "}
                       <a href="https://executive-ed.xpro.mit.edu/professional-certificate-coding?utm_source=Google&utm_network=g&utm_medium=c&utm_term=mit%20full%20stack%20developer&utm_location=9011929&utm_campaign_id=17059210457&utm_adset_id=135511781189&utm_ad_id=594862351424" target="_blank">
                         MIT - Fullstack Development with MERN
                       </a>

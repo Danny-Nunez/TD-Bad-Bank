@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./components/Home";
 import AboutUs from "./components/AboutUs";
@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
@@ -25,7 +25,7 @@ function App() {
             <Route path="allData" element={<AllData />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <div>
         <ToastContainer></ToastContainer>
       </div>

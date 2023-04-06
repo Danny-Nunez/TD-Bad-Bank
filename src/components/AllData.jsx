@@ -20,9 +20,9 @@ const AllData = () => {
         <TableCell component="th" scope="row">
           {user.name}
         </TableCell>
-        <TableCell align="right">{user.email}</TableCell>
-        <TableCell align="right">{user.password}</TableCell>
-        <TableCell align="right">${user.balance}</TableCell>
+        <TableCell align="left">{user.email}</TableCell>
+        <TableCell align="left">{user.password}</TableCell>
+        <TableCell align="left">${user.balance}</TableCell>
       </TableRow>
     );
   });
@@ -33,13 +33,13 @@ const AllData = () => {
       <h1>AllData</h1>
       <br />
       <TableContainer component={Paper}>
-        <Table sx={{ minWidth: 650 }} aria-label="simple table">
+        <Table sx={{ minWidth: 500 }} aria-label="simple table">
           <TableHead>
             <TableRow>
               <TableCell>Name</TableCell>
-              <TableCell align="right">Email</TableCell>
-              <TableCell align="right">Password</TableCell>
-              <TableCell align="right">Balance</TableCell>
+              <TableCell align="left">Email</TableCell>
+              <TableCell align="left">Password</TableCell>
+              <TableCell align="left">Balance</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>{usersList}</TableBody>
