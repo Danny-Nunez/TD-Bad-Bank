@@ -30,7 +30,7 @@ In addition, I leveraged Formik to streamline the form message handler and state
 
 An upcoming objective is to incorporate a database into the application and enhance its security measures.
 
-# Copyright (c) 2012-2023 Danny Nunez
+ Copyright (c) 2023 Danny Nunez
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
